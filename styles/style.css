@@ -1,0 +1,447 @@
+
+:root{
+    --headerColor : #ffc107;
+    --bodyBackgroundColor : #262626;
+}
+
+canvas{
+    display:block;
+  }
+
+#particles-js {
+    background-color: var(--bodyBackgroundColor);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#particles-js .particles-js-canvas-el {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-animation: appear 1.4s 1;
+    animation: appear 1.4s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    position:absolute;
+    
+}
+
+@keyframes appear {
+    0% {
+       -ms-transform: scale(0);
+       -webkit-transform: scale(0);
+       transform: scale(0);
+       opacity: 0;
+   }
+     100% {
+       -ms-transform: scale(1);
+       -webkit-transform: scale(1);
+       transform: scale(1);
+       opacity: 1;
+   }
+   }
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--bodyBackgroundColor);
+}
+
+body::-webkit-scrollbar{
+    width : 5px;
+}
+body::-webkit-scrollbar-track{
+    background : #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#ffc107 ;
+}
+
+
+
+header{
+    background:var(--headerColor);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    position:relative;
+    width: 100%;
+}
+
+.navbar { 
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    grid-column-start : 1;
+    margin-right:80px;
+    float : right;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    color: #444;
+}
+
+.navbar a:hover{
+    color:black;
+    font-weight: 500;
+}
+
+.navbar a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+#logo{
+    grid-column-start: 0;
+    text-align: left;
+    padding-left : 5%;
+}
+
+#logo a{
+    color : black;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+
+#bodyCV{
+    display:flex;
+    color:black;
+    text-align: left;
+}
+
+
+
+#presentation{
+    padding-left:8%;
+    padding-top: 2%;
+    color:white;
+    font-weight: 300;
+    font-size: 56px;
+    z-index: -9;
+    background-color: transparent;
+    width: auto;
+    position : absolute;
+
+}
+
+#presentation p{
+    margin:0;
+    padding:8px;
+}
+
+#typewriter{
+    color: var(--headerColor);
+}
+
+p#etudiant {
+    padding-top: 40px;
+    padding-left:130px;
+}
+
+
+
+.importantText{
+    color:var(--headerColor);
+    font-weight: 800;
+}
+
+
+.triangleInv{
+    --color : rgba(255, 193, 7, 1);
+    -webkit-text-stroke: 12px var(--color);
+    font-size: 200px;
+    color: transparent;
+    position : sticky;
+    overflow: hidden;
+    margin : 0;
+    padding: 0;
+    width: max-content;
+    height: max-content;
+    top: 20px;
+    z-index: -10;
+}
+
+
+
+.triangle{
+    --color : rgba(255, 193, 7, 1);
+    -webkit-text-stroke: 12px var(--color);
+    font-size: 200px;
+    color: transparent;
+    position : absolute;
+    z-index: -10;
+    margin : 0;
+    bottom: 0px;
+    right: 10px;
+    
+}
+
+.page{
+     height: 100vh;
+}
+
+
+/* CV */
+#lienCV{
+    position:relative;
+    margin-top : 120px;
+    padding-right: 60%;
+    padding-left: 2%;
+    float: right;
+    box-shadow: 20px 15px whitesmoke;
+    background-color: var(--headerColor);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+#divLienCV{
+    color:black;
+    overflow: hidden;
+    font-size: 60px;
+    font-weight: 600;
+    opacity: 0;
+    width: 0;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+#lienCV:hover{
+    transform: scale(1.05);
+}
+
+
+
+/* PROJETS */
+#projets{
+    padding-right: 40%;
+    padding-left: 2%;
+    float: right;
+    box-shadow: 20px 15px whitesmoke;
+    background-color: var(--headerColor);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+#divProjets{
+    color:black;
+    overflow: hidden;
+    font-size: 60px;
+    font-weight: 600;
+    opacity: 0;
+    width: 0;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#projets:hover{
+    transform: scale(1.05);
+}
+
+
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      width: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      width: 100%;
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+
+/* PAGE CV */
+
+#CV{
+    display: grid ;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    margin-top : 5%;
+    margin-left : 12%;
+    margin-right : 12%;
+    background-color: #333333;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: "Lato";
+    font-size: 20px;
+    
+}
+
+#formation{
+    margin-top: 1%;
+    margin-left: 5%;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 5% 5% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    /* clip-path : circle(20% at 0% 0%); */
+    animation: bubbleTextAppear;
+    /* animation-delay: 2s; */
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.58,-0.38,.83,.67);
+}
+
+
+@keyframes bubbleTextAppear {
+    from {
+        clip-path: circle(20% at 5% 5%);
+    }
+  
+    to {
+        clip-path: circle(200% at 0% 0%);
+    }
+}
+
+
+
+.marker{
+    color: var(--headerColor);
+    grid-column: 2;
+    text-align: right;
+    padding-right: 20%;
+}
+
+
+.formationPart{
+    grid-column: 3/10;
+    font-size: 22px;
+}
+
+.formationPart ul{
+    list-style-type: disc;
+    margin-left: 0;
+    padding-left: 2%;
+    font-size:16px;
+}
+
+.formationPart p{
+    margin-left: 0;
+    padding-left: 2%;
+    font-size: 16px;
+}
+
+#location{
+    grid-column: 10/13;
+    font-size: 16px;
+}
+
+
+.etablissement{
+    font-style: italic;
+    font-size: 16px;
+    color: var(--headerColor);
+}
+
+.fas{
+    color:var(--headerColor);
+    font-size: 150%;
+    padding-right:2%;
+}
+
+
+.categorie{
+    color: var(--headerColor);
+    font-size: 40px;
+    font-weight: 600;
+    grid-column: 1;
+}
+
+
+
+#scene{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.rhombus{
+    position : absolute;
+    margin-top : 6vh;
+    margin-left : 3vh;
+    width: 15%;
+    height: 0;
+    padding-bottom: 15%;
+    background-color: var(--headerColor);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    
+}
+
+.rhombus::after{
+    content: "";
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin-left:10%;
+    margin-top:10%;
+    display: inline-block;
+    background-color: var(--bodyBackgroundColor);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    
+}
+
+.pentagon{
+    position : absolute;
+    margin-top : 30vh;
+    margin-left : 80vw;
+    width: 15%;
+    height: 0;
+    padding-bottom: 15%;
+    background-color: var(--headerColor);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.pentagon::after{
+    content: "";
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin-left:10%;
+    margin-top:10%;
+    display: inline-block;
+    background-color: var(--bodyBackgroundColor);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+}
