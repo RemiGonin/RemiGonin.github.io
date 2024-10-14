@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:status.saucelabs.com,2005:/history</id>
+  <link rel="alternate" type="text/html" href="https://status.saucelabs.com"/>
+  <link rel="self" type="application/atom+xml" href="https://status.saucelabs.com/history.atom"/>
+  <title>Sauce Labs Status - Incident History</title>
+  <updated>2024-10-14T08:13:38Z</updated>
+  <author>
+    <name>Sauce Labs</name>
+  </author>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22515245</id>
+    <published>2024-11-09T18:00:00Z</published>
+    <updated>2024-10-11T23:40:51Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/scplcbzdvkjm"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Nov &lt;var data-var='date'&gt;9&lt;/var&gt;, &lt;var data-var='time'&gt;18:00&lt;/var&gt; - &lt;var data-var='time'&gt;20:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt;11&lt;/var&gt;, &lt;var data-var='time'&gt;23:40&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on November 9th, starting at 18:00 UTC and ending at 20:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US East data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22445341</id>
+    <published>2024-11-02T17:00:00Z</published>
+    <updated>2024-10-07T19:05:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/sg4kp712rkmq"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Nov &lt;var data-var='date'&gt;2&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; - &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;19:05&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on November 2nd, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US West data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22082004</id>
+    <published>2024-10-19T17:00:00Z</published>
+    <updated>2024-09-06T22:58:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/c4dwmjh3fhm5"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Oct &lt;var data-var='date'&gt;19&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; - &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 6&lt;/var&gt;, &lt;var data-var='time'&gt;22:58&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on October 19th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our EU data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22081988</id>
+    <published>2024-10-16T12:25:02Z</published>
+    <updated>2024-10-12T19:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/dqbf3vvyg6d4"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt;12&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt;12&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 6&lt;/var&gt;, &lt;var data-var='time'&gt;22:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on October 12th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US East data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22513211</id>
+    <published>2024-10-11T19:26:24Z</published>
+    <updated>2024-10-11T19:27:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/txmt4fz7jrr2"/>
+    <title>2024-October-11 Resolved Service Incident 2</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt;11&lt;/var&gt;, &lt;var data-var='time'&gt;19:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Between 9:33 and 19:21 UTC, Real Device tests running via Sauce Connect tunnel (version 5) experienced failures on US-West-1 and EU-Central-1 and US-East-4 Data centers. We have identified the issue and taken remedial action.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22505653</id>
+    <published>2024-10-11T05:00:00Z</published>
+    <updated>2024-10-11T05:46:11Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/rw5q137ynvy8"/>
+    <title>2024-October-11 Resolved Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt;11&lt;/var&gt;, &lt;var data-var='time'&gt;05:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Between 04:30 and 04:57 UTC, we were experiencing elevated error rates and reduced device availability for Real device tests in our US-East data center. The issue is now resolved. All services are fully operational.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22081962</id>
+    <published>2024-10-05T19:00:02Z</published>
+    <updated>2024-10-05T19:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/bgbm9ylhh70m"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 5&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 5&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 6&lt;/var&gt;, &lt;var data-var='time'&gt;22:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on October 5th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US West data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22353858</id>
+    <published>2024-10-01T20:48:52Z</published>
+    <updated>2024-10-01T20:48:52Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/tm3wg56mcycb"/>
+    <title>2024-October-1 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 1&lt;/var&gt;, &lt;var data-var='time'&gt;20:48&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 1&lt;/var&gt;, &lt;var data-var='time'&gt;18:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Access to support portal has been restored. We continue to monitor.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 1&lt;/var&gt;, &lt;var data-var='time'&gt;17:06&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to monitor the status and update once the third party issue is resolved&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 1&lt;/var&gt;, &lt;var data-var='time'&gt;16:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to monitor the status and update once the third party issue is resolved&lt;/p&gt;&lt;p&gt;&lt;small&gt;Oct &lt;var data-var='date'&gt; 1&lt;/var&gt;, &lt;var data-var='time'&gt;16:32&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - A third party provider is currently experiencing an outage which is impacting support.saucelabs.com. If this is an emergency and you wish to reach Sauce Labs Support team, please email us at support.outage@saucelabs.com.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22340466</id>
+    <published>2024-09-30T16:41:34Z</published>
+    <updated>2024-09-30T16:42:18Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/cydsp8zhmlrj"/>
+    <title>2024-September-30 Resolved Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;30&lt;/var&gt;, &lt;var data-var='time'&gt;16:41&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Between 15:53 - 16:11 UTC, Sauce Labs dashboard was unavailable in our EU Data Center. The access has been restored and all services are operational.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21676937</id>
+    <published>2024-09-21T19:00:02Z</published>
+    <updated>2024-09-21T19:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/03j965l0zhh3"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;19:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on September 21st, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our EU data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22176165</id>
+    <published>2024-09-15T17:00:00Z</published>
+    <updated>2024-09-26T21:52:58Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/4tlmqhb9ym7d"/>
+    <title>2024-09-15 Resolved Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Between 17:02 and 20:15 UTC, automated tests executed on our real devices in the US West Data Center experienced an increased error rate due to reduced availability of the devices. The issue has been identified. All services are back to normal.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21676897</id>
+    <published>2024-09-14T19:00:02Z</published>
+    <updated>2024-09-14T19:00:05Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/3fs3jk3c6jsb"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;19:38&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on September 14th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/22107829</id>
+    <published>2024-09-09T13:29:45Z</published>
+    <updated>2024-09-23T10:12:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/8v5y3ns80c0f"/>
+    <title>2024-September-9 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 9&lt;/var&gt;, &lt;var data-var='time'&gt;13:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action all services are operating as normal. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 9&lt;/var&gt;, &lt;var data-var='time'&gt;12:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are currently seeing intermittent network connectivity issues in Live and Automated Real Device tests in the US-West-1 Data Center. We are still investigating.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 9&lt;/var&gt;, &lt;var data-var='time'&gt;10:58&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We are currently seeing intermittent network connectivity issues in iOS Live and Automated Real Device tests in the US-West-1 Data Center. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21320905</id>
+    <published>2024-08-24T19:00:02Z</published>
+    <updated>2024-08-24T19:00:04Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/yj55rvncvgld"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on August 24th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our EU data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21757139</id>
+    <published>2024-08-15T21:26:18Z</published>
+    <updated>2024-08-28T08:12:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/p5bl1ff6rsys"/>
+    <title>2024-August-15 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;21:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;19:48&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We have received multiple reports of users experiencing issues accessing our dashboard via SSO. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21724482</id>
+    <published>2024-08-12T22:44:37Z</published>
+    <updated>2024-09-23T10:22:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/rvm73hsghw0r"/>
+    <title>2024-August-12 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;12&lt;/var&gt;, &lt;var data-var='time'&gt;22:44&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action, all services are operating as normal. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;12&lt;/var&gt;, &lt;var data-var='time'&gt;21:13&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We are currently seeing real device iOS installation failures, showing "Unable to Verify App" in the US-West Data Center. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21320872</id>
+    <published>2024-08-10T19:00:02Z</published>
+    <updated>2024-08-10T19:00:04Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/6sgq80jwx8kc"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on August 10th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21210027</id>
+    <published>2024-07-18T21:00:02Z</published>
+    <updated>2024-07-18T21:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/bnsg6vkjb1kd"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;21:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;22:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on Thursday, July 18th, starting at 19:00 UTC and ending at 21:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our EU data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21209996</id>
+    <published>2024-07-10T08:00:02Z</published>
+    <updated>2024-07-10T08:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/cs54y3zny61m"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;08:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;04:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;22:37&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a four hour previously scheduled maintenance window on Wednesday, July 10th, starting at 04:00 UTC and ending at 08:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to four hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21349092</id>
+    <published>2024-07-08T19:35:59Z</published>
+    <updated>2024-08-15T08:42:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/7sz67r1lq1f8"/>
+    <title>2024-July-8 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;19:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action all services are operating as normal. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;19:06&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We are currently seeing saucelabs.com website pages loading slow and throwing errors. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21308848</id>
+    <published>2024-07-04T14:28:45Z</published>
+    <updated>2024-09-23T10:12:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/xngvbqn8khxh"/>
+    <title>2024-July-4 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;14:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action, all services are operating as normal. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;14:05&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are currently seeing elevated error rates in Desktop and Virtual Mobile tests using the US-West-1 datacenter. We are currently investigating.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;13:49&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - All jobs in our US-West-1 Data Center are failing to start. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/20674649</id>
+    <published>2024-06-22T19:00:02Z</published>
+    <updated>2024-06-22T19:00:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/828wqtrbf1nd"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Apr &lt;var data-var='date'&gt;30&lt;/var&gt;, &lt;var data-var='time'&gt;20:58&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on June 22nd, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our EU data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21110297</id>
+    <published>2024-06-14T19:27:33Z</published>
+    <updated>2024-08-10T13:18:29Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/6j0pxpk5hcqs"/>
+    <title>2024-June-14 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;19:27&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action, all services are operating as normal. This incident is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;18:45&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We are currently seeing intermittent issues when running automated tests in our US West Data center. Users would encounter the "503 Service Unavailable" error on their end. We are investigating.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/20674629</id>
+    <published>2024-06-08T19:00:02Z</published>
+    <updated>2024-06-08T19:00:04Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/9plzvcyj6hq5"/>
+    <title>Sauce Labs Planned Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Apr &lt;var data-var='date'&gt;30&lt;/var&gt;, &lt;var data-var='time'&gt;20:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Sauce Labs will have a two hour previously scheduled maintenance window on June 8th, starting at 17:00 UTC and ending at 19:00 UTC. During this maintenance window, we will be making updates to our infrastructure and services in our US data center. These maintenance actions may cause portions of the service (including running automated and manual tests) to be unavailable for up to two hours.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.saucelabs.com,2005:Incident/21033610</id>
+    <published>2024-06-07T13:56:01Z</published>
+    <updated>2024-06-25T03:48:06Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.saucelabs.com/incidents/q10sy94tysqs"/>
+    <title>2024-June-7 Service Incident</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;13:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - After taking remedial action, Sauce Connect 4 tunnels are starting successfully in our US-West data center.  All services are fully operational.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;13:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - We have fixed the root cause, and Sauce Connect 4 tunnels are starting successfully in our US-West data center. We are monitoring.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;13:40&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - We have identified the root cause and are working on implementing a fix.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jun &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;12:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Sauce Connect 4 tunnels are intermittently failing to start in our US-West data center. We are investigating.&lt;/p&gt;</content>
+  </entry>
+</feed>
