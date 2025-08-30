@@ -438,8 +438,8 @@ body.mariage-body {
 .mariage-timeline-item::before {
   content: '';
   position: absolute;
-  left: -25px;
-  top: 5px;
+  left: -13px;
+  top: 8px;
   width: 10px;
   height: 10px;
   background-color: var(--sage-green-light);
@@ -776,7 +776,7 @@ body.mariage-body {
   }
 
   .mariage-timeline::before {
-    left: 10px;
+    left: 15px;
   }
 
   .mariage-timeline-item {
@@ -787,8 +787,8 @@ body.mariage-body {
   }
 
   .mariage-timeline-item::before {
-    left: -20px;
-    top: 0;
+    left: -5px;
+    top: 15px;
   }
 
   .mariage-timeline-time {
@@ -813,7 +813,7 @@ body.mariage-body {
   }
 
   .mariage-menu-item {
-    margin: 0 -0.5rem;
+    margin: 0;
   }
 
   .mariage-menu-header {
