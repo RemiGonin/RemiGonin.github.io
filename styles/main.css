@@ -721,19 +721,201 @@ body.mariage-body {
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  /* Typography adjustments */
   .mariage-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .mariage-section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
   }
 
+  .mariage-place {
+    font-size: 1.2rem;
+  }
+
+  .mariage-date {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .mariage-menu-description {
+    font-size: 1.1rem;
+    margin: -0.5rem 0 1.5rem 0;
+  }
+
+  /* Container adjustments */
+  .mariage-container {
+    padding: 2rem 1rem;
+  }
+
+  .mariage-timeline-section,
+  .mariage-menu-section,
+  .mariage-faq-section {
+    max-width: 100%;
+  }
+
+  /* Button adjustments */
+  .mariage-maps-button,
+  .mariage-save-date-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .mariage-calendar-option {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Timeline mobile layout */
   .mariage-timeline {
-    padding-left: 20px;
+    padding-left: 30px;
+  }
+
+  .mariage-timeline::before {
+    left: 10px;
+  }
+
+  .mariage-timeline-item {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .mariage-timeline-item::before {
+    left: -20px;
+    top: 0;
   }
 
   .mariage-timeline-time {
     font-size: 1rem;
+    text-align: left;
+    min-width: auto;
+  }
+
+  .mariage-timeline-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .mariage-timeline-content p {
+    font-size: 0.9rem;
+  }
+
+  /* Menu grid adjustment */
+  .mariage-menu-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .mariage-menu-item {
+    margin: 0 -0.5rem;
+  }
+
+  .mariage-menu-header {
+    padding: 1.2rem;
+  }
+
+  .mariage-menu-emoji {
+    font-size: 2.5rem;
+  }
+
+  .breton-flag {
+    width: 50px;
+    height: 33px;
+  }
+
+  .mariage-menu-item h3 {
+    font-size: 1rem;
+  }
+
+  .mariage-menu-details {
+    padding: 0 1.2rem;
+  }
+
+  .mariage-menu-details li {
+    font-size: 0.9rem;
+  }
+
+  /* FAQ mobile layout */
+  .mariage-faq-question {
+    padding: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .mariage-faq-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .mariage-faq-answer p {
+    padding: 0 1.2rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  /* Divider adjustments */
+  .mariage-divider {
+    margin: 2rem 0;
+  }
+
+  .mariage-leaf-divider {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .mariage-title {
+    font-size: 2rem;
+  }
+
+  .mariage-section-title {
+    font-size: 1.5rem;
+  }
+
+  .mariage-container {
+    padding: 1.5rem 0.75rem;
+  }
+
+  /* Smaller touch targets for very small screens */
+  .mariage-faq-question,
+  .mariage-menu-header {
+    padding: 1rem;
+  }
+}
+
+/* Touch-friendly adjustments */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets */
+  .mariage-maps-button,
+  .mariage-save-date-button {
+    min-height: 44px;
+  }
+
+  .mariage-calendar-option {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mariage-faq-question,
+  .mariage-menu-item {
+    min-height: 48px;
+  }
+
+  /* Remove hover effects on touch devices */
+  .mariage-timeline-item:hover {
+    background-color: transparent;
+    transform: none;
+  }
+
+  .mariage-timeline-item:active {
+    background-color: var(--background-hover);
   }
 }
