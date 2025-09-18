@@ -72,15 +72,7 @@ document.addEventListener("click", function (event) {
 // FAQ Toggle Function
 function toggleFAQ(button) {
     const faqItem = button.closest('.mariage-faq-item');
-    const allFaqItems = document.querySelectorAll('.mariage-faq-item');
-    
-    // Close other FAQ items
-    allFaqItems.forEach(item => {
-        if (item !== faqItem && item.classList.contains('active')) {
-            item.classList.remove('active');
-        }
-    });
-    
+
     // Toggle current FAQ item
     faqItem.classList.toggle('active');
 }
