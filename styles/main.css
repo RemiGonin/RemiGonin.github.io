@@ -723,6 +723,107 @@ body.mariage-body {
   line-height: 1.6;
 }
 
+/* Accommodation Section */
+.mariage-accommodation-section {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.mariage-accommodation-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.mariage-accommodation-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--sage-green-dark);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.mariage-accommodation-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: var(--sage-green-light);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px var(--shadow-color);
+}
+
+.mariage-accommodation-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.mariage-accommodation-emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.mariage-accommodation-item h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: 'IM Fell French Canon', serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  flex: 1;
+}
+
+.mariage-accommodation-description {
+  color: var(--text-muted);
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.mariage-accommodation-distance {
+  color: var(--text-secondary);
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 0.95rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.mariage-accommodation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: var(--sage-green-dark);
+  color: var(--cream-light);
+  text-decoration: none;
+  border-radius: 25px;
+  font-family: 'IM Fell DW Pica', serif;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  font-size: 0.95rem;
+  margin-top: auto;
+}
+
+.mariage-accommodation-button:hover {
+  background-color: var(--sage-green-light);
+  color: var(--forest-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow-color-dark);
+}
+
+/* Stagger accommodation animations */
+.mariage-accommodation-item:nth-child(1) { animation-delay: 0.1s; }
+.mariage-accommodation-item:nth-child(2) { animation-delay: 0.2s; }
+.mariage-accommodation-item:nth-child(3) { animation-delay: 0.3s; }
+.mariage-accommodation-item:nth-child(4) { animation-delay: 0.4s; }
+.mariage-accommodation-item:nth-child(5) { animation-delay: 0.5s; }
+
 /* Animations */
 @keyframes fadeIn {
   from {
@@ -792,7 +893,8 @@ body.mariage-body {
 
   .mariage-timeline-section,
   .mariage-menu-section,
-  .mariage-faq-section {
+  .mariage-faq-section,
+  .mariage-accommodation-section {
     max-width: 100%;
   }
 
@@ -895,6 +997,42 @@ body.mariage-body {
     font-size: 0.95rem;
   }
 
+  /* Accommodation mobile layout */
+  .mariage-accommodation-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .mariage-accommodation-item {
+    padding: 1.5rem;
+  }
+
+  .mariage-accommodation-header {
+    gap: 0.8rem;
+  }
+
+  .mariage-accommodation-emoji {
+    font-size: 2rem;
+  }
+
+  .mariage-accommodation-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .mariage-accommodation-description {
+    font-size: 0.95rem;
+  }
+
+  .mariage-accommodation-distance {
+    font-size: 0.9rem;
+  }
+
+  .mariage-accommodation-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
   /* Divider adjustments */
   .mariage-divider {
     margin: 2rem 0;
@@ -947,6 +1085,10 @@ body.mariage-body {
     min-height: 48px;
   }
 
+  .mariage-accommodation-button {
+    min-height: 44px;
+  }
+
   /* Remove hover effects on touch devices */
   .mariage-timeline-item:hover {
     background-color: transparent;
@@ -955,5 +1097,14 @@ body.mariage-body {
 
   .mariage-timeline-item:active {
     background-color: var(--background-hover);
+  }
+
+  .mariage-accommodation-item:hover {
+    transform: none;
+  }
+
+  .mariage-accommodation-item:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: scale(0.98);
   }
 }
