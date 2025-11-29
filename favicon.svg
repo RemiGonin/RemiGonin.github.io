@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background circle with forest theme -->
+  <circle cx="50" cy="50" r="48" fill="#284635" stroke="#BAD4B5" stroke-width="2"/>
+
+  <!-- "G-R" text in elegant font -->
+  <text x="50" y="65"
+        font-family="'Cormorant Garamond', serif"
+        font-size="45"
+        font-weight="600"
+        fill="#fce1a5"
+        text-anchor="middle"
+        letter-spacing="2">G-R</text>
+</svg>
