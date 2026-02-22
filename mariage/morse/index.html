@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Morse - Julie &amp; R&eacute;mi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/morse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+French+Canon:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="mariage-body">
+    <div class="mariage-container">
+        <div class="mariage-content">
+
+            <!-- Game Screen -->
+            <div id="game-screen" class="morse-game-screen">
+                <h1 class="mariage-title" style="font-size: 3rem;">Code Morse</h1>
+                <p class="morse-subtitle">Déchiffrez le message et entrez la réponse !</p>
+
+                <div class="morse-table">
+                    <div class="morse-table-row"><span class="morse-letter">A</span><span class="morse-code">· —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">B</span><span class="morse-code">— · · ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">C</span><span class="morse-code">— · — ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">D</span><span class="morse-code">— · ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">E</span><span class="morse-code">·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">F</span><span class="morse-code">· · — ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">G</span><span class="morse-code">— — ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">H</span><span class="morse-code">· · · ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">I</span><span class="morse-code">· ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">J</span><span class="morse-code">· — — —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">K</span><span class="morse-code">— · —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">L</span><span class="morse-code">· — · ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">M</span><span class="morse-code">— —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">N</span><span class="morse-code">— ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">O</span><span class="morse-code">— — —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">P</span><span class="morse-code">· — — ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">Q</span><span class="morse-code">— — · —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">R</span><span class="morse-code">· — ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">S</span><span class="morse-code">· · ·</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">T</span><span class="morse-code">—</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">U</span><span class="morse-code">· · —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">V</span><span class="morse-code">· · · —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">W</span><span class="morse-code">· — —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">X</span><span class="morse-code">— · · —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">Y</span><span class="morse-code">— · — —</span></div>
+                    <div class="morse-table-row"><span class="morse-letter">Z</span><span class="morse-code">— — · ·</span></div>
+                </div>
+
+                <div class="morse-input-section">
+                    <input type="text" id="morse-input" class="morse-input" placeholder="Votre réponse..."
+                        autocomplete="off" autocapitalize="off">
+                    <button id="morse-validate" class="morse-validate-button">Valider</button>
+                </div>
+                <p id="morse-error" class="morse-error" style="display: none;">Essayez encore !</p>
+            </div>
+
+            <!-- Victory Screen -->
+            <div id="victory-screen" class="morse-victory-screen" style="display: none;">
+                <canvas id="confetti-canvas" class="morse-confetti-canvas"></canvas>
+                <div class="morse-victory-content">
+                    <h1 class="mariage-title morse-victory-title">Bien jou&eacute; !</h1>
+                    <button id="morse-replay" class="morse-validate-button" style="margin-top: 2rem;">Rejouer</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../../scripts/morse.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+/* Morse Game */
+.morse-game-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s ease-out;
+    max-width: 100%;
+}
+
+.morse-subtitle {
+    color: var(--text-secondary);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+/* Morse Table */
+.morse-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0;
+    width: 100%;
+    max-width: 440px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--sage-green-dark);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+.morse-table-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.45rem 0.8rem;
+    border-bottom: 1px solid rgba(93, 123, 85, 0.15);
+    border-right: 1px solid rgba(93, 123, 85, 0.15);
+}
+
+.morse-letter {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1rem;
+    color: var(--text-primary);
+    min-width: 1.2em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.morse-code {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--cream-light);
+    letter-spacing: 2px;
+}
+
+/* Input Section */
+.morse-input-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.morse-input {
+    padding: 12px 24px;
+    border: 2px solid var(--sage-green-dark);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--cream-light);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    flex: 1;
+    text-align: center;
+}
+
+.morse-input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.6;
+}
+
+.morse-input:focus {
+    border-color: var(--sage-green-light);
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 12px rgba(93, 123, 85, 0.3);
+}
+
+.morse-validate-button {
+    padding: 12px 28px;
+    background-color: var(--sage-green-dark);
+    color: var(--cream-light);
+    border: none;
+    border-radius: 30px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    white-space: nowrap;
+}
+
+.morse-validate-button:hover {
+    background-color: var(--sage-green-light);
+    color: var(--forest-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-color-dark);
+}
+
+.morse-error {
+    color: #e07a5f;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Victory Screen */
+.morse-victory-screen {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.morse-confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.morse-victory-content {
+    text-align: center;
+    animation: fadeInScale 0.8s ease-out;
+    z-index: 5;
+}
+
+.morse-victory-title {
+    font-size: 4rem !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .morse-table {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        max-width: 100%;
+    }
+
+    .morse-input-section {
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .morse-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .morse-victory-title {
+        font-size: 2.8rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .morse-table {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+
+    .morse-table-row {
+        padding: 0.35rem 0.6rem;
+    }
+
+    .morse-victory-title {
+        font-size: 2.2rem !important;
+    }
+}
+
+/* Touch-friendly */
+@media (hover: none) and (pointer: coarse) {
+    .morse-input {
+        min-height: 44px;
+    }
+
+    .morse-validate-button {
+        min-height: 44px;
+    }
+}
