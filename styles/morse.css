@@ -22,11 +22,14 @@
     gap: 0;
     width: 100%;
     max-width: 440px;
-    background-color: rgba(255, 255, 255, 0.03);
+    background:
+        radial-gradient(ellipse at center, rgba(93, 123, 85, 0.08) 0%, transparent 70%),
+        rgba(255, 255, 255, 0.03);
     border: 1px solid var(--sage-green-dark);
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 2.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(186, 212, 181, 0.05);
 }
 
 .morse-table-row {
