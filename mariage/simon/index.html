@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simon - Julie &amp; R&eacute;mi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/simon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+French+Canon:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="mariage-body">
+    <div class="mariage-container">
+        <div class="mariage-content">
+
+            <!-- Password Screen -->
+            <div id="password-screen" class="simon-password-screen">
+                <h1 class="mariage-title" style="font-size: 3rem;">Un petit jeu ?</h1>
+                <p class="simon-password-hint">Entrez le mot de passe pour continuer</p>
+                <div class="simon-password-form">
+                    <input type="text" id="password-input" class="simon-password-input"
+                        placeholder="Mot de passe..." autocomplete="off">
+                    <button id="password-submit" class="simon-password-button">Entrer</button>
+                </div>
+                <p id="password-error" class="simon-password-error" style="display: none;">
+                    Mot de passe incorrect !
+                </p>
+            </div>
+
+            <!-- Game Screen (hidden until password is correct) -->
+            <div id="game-screen" class="simon-game-screen" style="display: none;">
+                <h1 class="mariage-title" style="font-size: 2.8rem;">Simon</h1>
+                <p class="simon-subtitle">Reproduisez la séquence !</p>
+
+                <div class="simon-info">
+                    <span id="simon-round" class="simon-round">Tour 1 / 5</span>
+                </div>
+
+                <div class="simon-board">
+                    <button class="simon-pad" data-color="green" id="pad-green"></button>
+                    <button class="simon-pad" data-color="gold" id="pad-gold"></button>
+                    <button class="simon-pad" data-color="cream" id="pad-cream"></button>
+                    <button class="simon-pad" data-color="sage" id="pad-sage"></button>
+                </div>
+
+                <div class="simon-controls">
+                    <button id="simon-start" class="simon-start-button">Commencer</button>
+                </div>
+
+                <p id="simon-message" class="simon-message"></p>
+            </div>
+
+            <!-- Victory Screen (hidden until game is won) -->
+            <div id="victory-screen" class="simon-victory-screen" style="display: none;">
+                <canvas id="confetti-canvas" class="simon-confetti-canvas"></canvas>
+                <div class="simon-victory-content">
+                    <h1 class="mariage-title simon-victory-title">Bien jou&eacute; !</h1>
+                    <button id="simon-replay" class="simon-start-button" style="margin-top: 2rem;">Rejouer</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../../scripts/simon.js"></script>
+</body>
+
+</html>

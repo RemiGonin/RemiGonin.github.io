@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dégustation - Julie &amp; R&eacute;mi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/chips.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+French+Canon:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="mariage-body">
+    <div class="mariage-container">
+        <div class="mariage-content">
+
+            <!-- Game Screen -->
+            <div id="game-screen" class="chips-game-screen">
+                <h1 class="mariage-title" style="font-size: 3rem;">Dégustation de chips</h1>
+                <p class="chips-subtitle">Goûtez chaque bol et devinez le parfum !</p>
+
+                <div class="chips-bowls">
+                    <div class="chips-bowl-card" data-bowl="1" data-index="-1">
+                        <div class="chips-bowl-number">1</div>
+                        <div class="chips-bowl-flavor">Appuyez pour choisir</div>
+                    </div>
+                    <div class="chips-bowl-card" data-bowl="2" data-index="-1">
+                        <div class="chips-bowl-number">2</div>
+                        <div class="chips-bowl-flavor">Appuyez pour choisir</div>
+                    </div>
+                    <div class="chips-bowl-card" data-bowl="3" data-index="-1">
+                        <div class="chips-bowl-number">3</div>
+                        <div class="chips-bowl-flavor">Appuyez pour choisir</div>
+                    </div>
+                    <div class="chips-bowl-card" data-bowl="4" data-index="-1">
+                        <div class="chips-bowl-number">4</div>
+                        <div class="chips-bowl-flavor">Appuyez pour choisir</div>
+                    </div>
+                    <div class="chips-bowl-card" data-bowl="5" data-index="-1">
+                        <div class="chips-bowl-number">5</div>
+                        <div class="chips-bowl-flavor">Appuyez pour choisir</div>
+                    </div>
+                </div>
+
+                <button id="chips-validate" class="chips-validate-button" disabled>Valider</button>
+                <button id="chips-retry" class="chips-validate-button" style="display: none;">Réessayer</button>
+                <p id="chips-message" class="chips-message"></p>
+            </div>
+
+            <!-- Victory Screen -->
+            <div id="victory-screen" class="chips-victory-screen" style="display: none;">
+                <canvas id="confetti-canvas" class="chips-confetti-canvas"></canvas>
+                <div class="chips-victory-content">
+                    <h1 class="mariage-title chips-victory-title">Bien jou&eacute; !</h1>
+                    <p class="chips-victory-score" id="victory-score"></p>
+                    <button id="chips-replay" class="chips-validate-button" style="margin-top: 2rem;">Rejouer</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../../scripts/chips.js"></script>
+</body>
+
+</html>

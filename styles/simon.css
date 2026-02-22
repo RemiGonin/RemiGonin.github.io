@@ -1,0 +1,296 @@
+/* Simon Game - Password Screen */
+.simon-password-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    animation: fadeIn 1s ease-out;
+}
+
+.simon-password-hint {
+    color: var(--text-secondary);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.simon-password-form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.simon-password-input {
+    padding: 12px 24px;
+    border: 2px solid var(--sage-green-dark);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--cream-light);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 220px;
+    text-align: center;
+}
+
+.simon-password-input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.6;
+}
+
+.simon-password-input:focus {
+    border-color: var(--sage-green-light);
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 12px rgba(93, 123, 85, 0.3);
+}
+
+.simon-password-button {
+    padding: 12px 28px;
+    background-color: var(--sage-green-dark);
+    color: var(--cream-light);
+    border: none;
+    border-radius: 30px;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.simon-password-button:hover {
+    background-color: var(--sage-green-light);
+    color: var(--forest-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-color-dark);
+}
+
+.simon-password-error {
+    color: #e07a5f;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Simon Game Screen */
+.simon-game-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.simon-subtitle {
+    color: var(--text-secondary);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.simon-info {
+    margin-bottom: 2rem;
+}
+
+.simon-round {
+    color: var(--text-muted);
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+/* Simon Board */
+.simon-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.simon-pad {
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.simon-pad::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+/* Pad Colors - Forest themed but distinct enough to play */
+#pad-green {
+    background-color: #4a7c59;
+    border: 2px solid #5a9c6a;
+}
+
+#pad-green.lit,
+#pad-green:active {
+    background-color: #6fbf85;
+    box-shadow: 0 0 25px rgba(111, 191, 133, 0.6), 0 4px 8px var(--shadow-color);
+}
+
+#pad-gold {
+    background-color: #b8943e;
+    border: 2px solid #d4ab4c;
+}
+
+#pad-gold.lit,
+#pad-gold:active {
+    background-color: #f0cf65;
+    box-shadow: 0 0 25px rgba(240, 207, 101, 0.6), 0 4px 8px var(--shadow-color);
+}
+
+#pad-cream {
+    background-color: #a08060;
+    border: 2px solid #c09a72;
+}
+
+#pad-cream.lit,
+#pad-cream:active {
+    background-color: #d4b896;
+    box-shadow: 0 0 25px rgba(212, 184, 150, 0.6), 0 4px 8px var(--shadow-color);
+}
+
+#pad-sage {
+    background-color: #4a6a8a;
+    border: 2px solid #5a82a8;
+}
+
+#pad-sage.lit,
+#pad-sage:active {
+    background-color: #7ab4d6;
+    box-shadow: 0 0 25px rgba(122, 180, 214, 0.6), 0 4px 8px var(--shadow-color);
+}
+
+.simon-pad.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Controls */
+.simon-controls {
+    margin-top: 2rem;
+}
+
+.simon-start-button {
+    padding: 14px 36px;
+    background-color: transparent;
+    color: var(--sage-green-light);
+    border: 2px solid var(--sage-green-light);
+    border-radius: 30px;
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.simon-start-button:hover {
+    background-color: var(--sage-green-light);
+    color: var(--forest-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-color-dark);
+}
+
+.simon-message {
+    color: var(--text-secondary);
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 1.5rem;
+    min-height: 1.5em;
+}
+
+/* Victory Screen */
+.simon-victory-screen {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.simon-confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.simon-victory-content {
+    text-align: center;
+    animation: fadeInScale 0.8s ease-out;
+    z-index: 5;
+}
+
+.simon-victory-title {
+    font-size: 4rem !important;
+    animation: fadeInScale 0.8s ease-out;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .simon-password-form {
+        flex-direction: column;
+    }
+
+    .simon-password-input {
+        width: 260px;
+    }
+
+    .simon-board {
+        width: 240px;
+        height: 240px;
+        gap: 10px;
+    }
+
+    .simon-victory-title {
+        font-size: 2.8rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .simon-board {
+        width: 200px;
+        height: 200px;
+        gap: 8px;
+    }
+
+    .simon-victory-title {
+        font-size: 2.2rem !important;
+    }
+}
+
+/* Touch-friendly adjustments */
+@media (hover: none) and (pointer: coarse) {
+    .simon-pad {
+        min-height: 48px;
+    }
+
+    .simon-password-button,
+    .simon-start-button {
+        min-height: 44px;
+    }
+
+    .simon-pad:active {
+        transform: scale(0.95);
+    }
+}
